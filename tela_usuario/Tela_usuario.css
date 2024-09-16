@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    image-rendering: optimizeQuality;
+
+}
+h2{
+    display: flex;
+    font-size: 230%;
+    padding:2px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+
+
+}
