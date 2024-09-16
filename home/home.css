@@ -1,24 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: flex-start;
-    height: 100vh;
     margin: 0;
 }
 .search-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     padding: 5px;
-    width: 300px;
+  
 }
 .search-container input[type="text"] {
-    border: none;
+    border-radius: 4px;
     outline: none;
     flex: 1;
     padding: 8px;
+    border-color: rgb(186, 186, 186);
+    background-color: rgb(228, 228, 228) ;
 }
 .search-container button {
     border: none;
@@ -27,8 +27,28 @@ body {
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 6px;
+
 }
 .search-container button:hover {
     background-color: #0056b3;
+} 
+
+.containeMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.containeLink a {
+    color: #007BFF;
+    margin: 10px 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.containeLink a:hover {
+    color: #06468a
 }
   
