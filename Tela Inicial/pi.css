@@ -60,8 +60,17 @@ p {
     margin-top: 10px;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 .btn:hover {
     background-color: #45a049;
+}
+a{
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

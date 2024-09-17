@@ -25,25 +25,23 @@ h3{
 }
 .form-group {
     margin-bottom: 15px;
+    margin: 70px;
 }
 
-/* Estilo das labels */
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-/* Estilo dos inputs e textarea */
 input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 20%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 4px;
     box-sizing:border-box;
 }
 
-/* Estilo do botão */
 button {
     background-color: #007bff;
     color: #fff;
@@ -55,6 +53,6 @@ button {
     width: 100%;
 }
 
-/* Estilo do botão ao passar o mouse */
 button:hover {
     background-color: #0056b3;
+}
