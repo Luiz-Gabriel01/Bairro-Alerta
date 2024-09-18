@@ -48,7 +48,8 @@
     font-weight: bolder;
 }
 .imagem {
-    margin-left: 300px;
+    align-items: center;
+
 }
 .paragrafo {
     margin-left: 300px;
