@@ -4,3 +4,53 @@
     text-decoration: none;
     font-weight: bolder;
 }
+.conteine2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.conteine2 a {
+    color: #03070b;
+    margin: 10px 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.containe2 a:hover {
+    color: #585f67
+}
+.conteine3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 5px;
+}
+.conteine4 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.conteine4 img {
+    margin-right: 20px;
+}
+
+.conteine5 {
+    justify-content: space-evenly;
+}
+.conteine5 a {
+    color: #03070b;
+    margin: 10px 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.imagem {
+    align-items: center;
+
+}
+.paragrafo {
+    margin-left: 300px;
+}
