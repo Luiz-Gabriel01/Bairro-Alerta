@@ -47,10 +47,14 @@
     text-decoration: none;
     font-weight: bolder;
 }
-.imagem {
+.imagem{
+    display: flex; 
     align-items: center;
+   justify-content: center;
+   
+
 
 }
 .paragrafo {
-    margin-left: 300px;
+    margin-left: 350px;
 }
