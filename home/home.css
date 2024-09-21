@@ -2,24 +2,30 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
 }
+
 .search-container {
     display: flex;
     align-items: center;
     padding: 5px;
-  
+    position: relative;
+    z-index: 100;
 }
+
 .search-container input[type="text"] {
     border-radius: 4px;
     outline: none;
     flex: 1;
     padding: 8px;
     border-color: rgb(186, 186, 186);
-    background-color: rgb(228, 228, 228) ;
+    background-color: rgb(228, 228, 228);
+    z-index: 100;
+    position: relative;
 }
+
 .search-container button {
     border: none;
     background-color: #007BFF;
@@ -28,11 +34,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin: 6px;
-
+    z-index: 100;
 }
+
 .search-container button:hover {
     background-color: #0056b3;
-} 
+}
 
 .containeMenu {
     display: flex;
@@ -49,6 +56,39 @@ body {
 }
 
 .containeLink a:hover {
-    color: #06468a
+    color: #06468a;
 }
-  
+
+#map {
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.autocomplete-items {
+    position: absolute;
+
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 200;
+    top: 38px;
+    width: 100%;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: #1e90ff !important;
+    color: #ffffff;
+}
