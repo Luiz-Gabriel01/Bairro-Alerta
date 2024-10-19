@@ -1,60 +1,83 @@
-.conteineVoltar a {
-    color: #007BFF;
-    margin: 10px 25px;
-    text-decoration: none;
-    font-weight: bolder;
+*{
+    padding: 0;
+    margin: 0;
 }
-.conteine2 {
+.registe {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-
+    color: rgb(193, 17, 17);
+    margin-top: 40px;
 }
-.conteine2 a {
-    color: #03070b;
-    margin: 10px 25px;
-    text-decoration: none;
-    font-weight: bolder;
+button {
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 6px;
+    z-index: 100;
 }
-.containe2 a:hover {
-    color: #585f67
-}
-.conteine3 {
+.container01 {
     display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
     align-items: center;
-    width: 100%;
-    margin: 50px 5px;
+    margin-top: 40px;
+    
 }
-.conteine4 {
+.botão {
     display: flex;
     align-items: center;
-    font-size: 15px;
-    margin: 10px;
-}
-
-.conteine4 img {
-    margin-right: 20px;
-}
-
-.conteine5 {
-    justify-content: space-evenly;
-}
-.conteine5 a {
-    color: #03070b;
-    margin: 10px 25px;
-    text-decoration: none;
-    font-weight: bolder;
-}
-.imagem{
-    display: flex; 
-    align-items: center;
-   justify-content: center;
+    gap: 10px;
    
 
+}
+.Endereço {
+    display: flex;
+    gap: 20px;
+}
+.container02 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.lista{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.rua {
+    margin-bottom: 30px;
+}
+.ocorrido{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 400px;
+}
+.descreva{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.container3 {
+    display: flex;
+    justify-content: space-between;
+   
 
+    }
+.cancelar{
+    margin-left: 150px;
 }
-.paragrafo {
-    margin-left: 350px;
+.cadastrar {
+    margin-right: 400px;
 }
+/* body {
+    background-image: url('/feed/mapa.jpg');
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; 
+} */
+/* display: flex;
+flex-direction: column;
+gap: 24px;
+border: 1px solid #EAECF0;
+border-radius: 4px; */

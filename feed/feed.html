@@ -1,44 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed</title>
-    <link rel="stylesheet" href="./feed.css">
+    <title>registro de ocorrênçia</title>
+    <link rel="stylesheet" href="feed.css">
 </head>
 <body>
-    <div class="conteineVoltar">
-        <a href="../home/home.html">
-            <img src="../tela_usuario/voltar_butao.png" width="40" alt=""></a>
+    <div class="registe">
+        <h1>Registre a Ocorrência</h1>
     </div>
-    <div class="conteine2">
-        <a href="http://">Seguindo</a>
-        <a href="http://">Para Você</a>
-    </div>
-    <div>
-        <div>
-            <div class="conteine3">
-                <div class=" conteine4">
-                    <img src="../tela_usuario/usuarioeditt.png" width="70">
-                    <div>
-                        <h3>Maria Alicia</h3>
-                        <p>
-                            Há 3 min
-                        </p>
-                    </div>
-                </div>
-                <div class="conteine5">
-                    <a href="">...</a>
-                </div>
 
-            </div>
-            </div>
-        
+    <form class=" container01">
+        <div class="Endereço">
+            <div class="">Endereço: <input type="text"name=""placeholder="Rua..."></div>
+            
+            <div class="">Cep: <input type="text"name=""placeholder="Cep" ></div>
+
         </div>
+        
+        <div class="botão">
+            <img src="icon.png" alt="" width="40">
+    
+            <button id="" type="button">Buscar no mapa</button>
+
+        </div>
+
+    </form>
+    <form class="container02">
+        <div>
+             <label for="escolha"> O que ocorreu? </label>
+            <select name="escolha" id="escolha">
+                <option value="3">...</option>
+                <option value="1">Assalto</option>
+                <option value="2">Furto</option>
+                <option value="3">Roubo</option>
+                <option value="3">Outros</option>
+            </select>
+        </div>
+         
+        <div>
+
+            <label for="escolha"> O que foi Roubado?</label>
+            <select name="escolha" id="escolha">
+                <option value="3">...</option>
+                <option value="1">Carro</option>
+                <option value="2">Moto</option>
+                <option value="3">Bicicleta</option>
+                <option value="3">Celular</option>
+                <option value="3">Outros</option>
+            </select>
+        </div>
+
+        <div>
+
+            <label for="escolha"> Em qual horário ocorreu?</label>
+            <select name="escolha" id="escolha">
+                <option value="3">...</option>
+                <option value="1">Manhã</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noite</option>
+                <option value="3">Madrugada</option>
+                <option value="3">Outros</option>
+            </select>
+        </div>
+      
+
+        <style>
+            ul {
+                list-style-type: none; 
+                padding: 0;
+                li {
+            margin-bottom: 15px;}
+    }
+          </style>
+    
+    </form>
+    <div class="lista">
+        <h1 class="rua">Como é a rua?</h1>
+        <ul>
+            <li><input type="checkbox" id="item1"> <label for="item1"> Tem postes apagados?</label></li>
+            <li><input type="checkbox" id="item2"> <label for="item2"> Pouco/Nenhum movimento de pessoas?</label></li>
+            <li><input type="checkbox" id="item3"> <label for="item3"> Pouco/Nenhum movimento de veículos?</label></li>
+            <li><input type="checkbox" id="item4"> <label for="item4"> Houve outros assaltos nessa rua?</label></li>
+        </ul>
+    
     </div>
-    <div class="imagem"> 
-    <img class="imagem" src="assalto-morumbi.jpg" alt="" width="800">
-</div>
-<p class="paragrafo">Motorista de aplicativo é assaltado a mão arrmada, em peixinhos.</p>
+    <div class="ocorrido">
+        <label for="mensagem"> <h1 class="descreva">Descreva o ocorrido:</h1></label>
+        <textarea id="mensagem" name="mensagem" rows="10" cols="50" placeholder ="Digite sua mensagem aqui..."></textarea>
+    </div>
+    <div class="container3">
+        <div class="cancelar"><br><input type="reset" value="Cancelar"><br></div>
+       
+        <div class="cadastrar"><br><input type="submit" value="Cadastrar"><br></div>
+
+
+    </div>
+
 </body>
 </html>
